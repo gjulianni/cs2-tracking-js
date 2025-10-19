@@ -13,7 +13,7 @@ app.use(cors());
 
 // Variáveis para armazenar as informações dos servidores
 let serverCache = {
-    zombieEscape: {
+    ze: {
         serverInfo: null,
         thumbnailUrl: null,
     },
@@ -26,7 +26,7 @@ let serverCache = {
 
 // Configuração dos servidores para tracking
 const servers = {
-    zombieEscape: { ip: '169.155.126.24', port: '9065' },
+    ze: { ip: '169.155.126.24', port: '9065' },
    // jailbreak: { ip: '131.196.199.250', port: '27301' }, 
 };
 
